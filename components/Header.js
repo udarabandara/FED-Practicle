@@ -1,12 +1,13 @@
 import Nav from "./Nav";
+import Pentagon from "../icons/Pentagon";
 
 function Header() {
   return (
     <div>
-      <header className="h-16 w-full flex items-center justify-between px-6 bg-white">
+      <header className="h-24 w-full flex items-center justify-between px-6 bg-white">
         <div className="flex w-full pa-2 items-center justify-between">
           <div className="text-gray-900 font-semibold font-Serif text-2xl">
-            Cargo
+            <img className="img-fluid logo logo-display w-50 h-20" src="https://wordpress.meetmighty.com/cargoton/wp-content/uploads/2021/06/Logo-home-1.svg" alt="cargoton"/>
           </div>
           <div className="flex flex-row items-center gap-4">
             <span className="text-amber-400 font-bold  text-xl">|</span>
