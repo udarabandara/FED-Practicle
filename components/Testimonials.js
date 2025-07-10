@@ -53,7 +53,7 @@ function Testimonials() {
                   height="24"
                   viewBox="0 0 24 24"
                   fill="currentColor"
-                  class="icon icon-tabler icons-tabler-filled icon-tabler-square-rounded-plus"
+                  className="icon icon-tabler icons-tabler-filled icon-tabler-square-rounded-plus"
                 >
                   <path stroke="none" d="M0 0h24v24H0z" fill="none" />
                   <path
