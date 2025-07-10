@@ -5,6 +5,7 @@ import WelcomeSection from "../components/WelcomeSection"
 import Service from "../components/Services"
 import Stats from "../components/Stats"
 import Testimonials from "../components/Testimonials"
+import LogoSection from "../components/LogoSection"
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
         <Service />
         <Stats/>
         <Testimonials/>
+        <LogoSection/>
       </main>
 
       {/* Footer */}
