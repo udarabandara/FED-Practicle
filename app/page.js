@@ -4,6 +4,7 @@ import Slider from "../components/Slider"
 import WelcomeSection from "../components/WelcomeSection"
 import Service from "../components/Services"
 import Stats from "../components/Stats"
+import Testimonials from "../components/Testimonials"
 
 export default function Home() {
   return (
@@ -12,11 +13,12 @@ export default function Home() {
       <Header />
 
       {/* Main Content */}
-      <main className="flex-1 py-6 sm:py-6 flex flex-col gap-8 items-center sm:items-start bg-white">
+      <main className="flex-1 py-6 sm:py-6 flex flex-col gap-16 items-center sm:items-start bg-white">
         <Slider/>
         <WelcomeSection/>
         <Service />
         <Stats/>
+        <Testimonials/>
       </main>
 
       {/* Footer */}
