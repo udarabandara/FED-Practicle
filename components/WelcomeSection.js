@@ -16,7 +16,7 @@ function WelcomeSection() {
             {" "}
             TransMax Logistics
           </span>
-          <span className="text-3xl font-bold text-gray-900 mt-3">
+          <span className="text-3xl text-bold text-gray-900 mt-3">
 
               Around <span className="text-amber-400">the World</span>
        
