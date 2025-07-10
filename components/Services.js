@@ -1,4 +1,4 @@
-import React from "react";
+import Pentagon from "../icons/Pentagon";
 
 function Services() {
   const Services = [
@@ -34,12 +34,18 @@ function Services() {
             style={{ width: "45%" }}
             key={index}
           >
-            <div className="h-50 w-50">
-              <img src={service.img} className="h-50 w-50"></img>
-              <div className="absolute bottom-2 right-2 bg-black bg-opacity-50 text-white px-2 py-1 text-sm rounded">
-                Your content here
+            <div className="relative h-50 w-50 overflow-hidden">
+              <img
+                src={service.img}
+                className="h-50 w-50 object-cover"
+                alt="service"
+              />
+
+              <div className="absolute bottom-0 top-41 left-27 w-10 h-10 bg-lime-200 bg-opacity-50 text-white flex items-center justify-center text-sm rounded-full">
+                <Pentagon />
               </div>
             </div>
+
             <div className="h-42 flex flex-col my-3 mx-4">
               <span className="text-xl mt-2 font-bold text-gray-900">
                 {service.title}
@@ -63,7 +69,10 @@ function Services() {
           </div>
         ))}
 
-        <div className="flex flex-row justify-between items-center" style={{width:"90%"}}>
+        <div
+          className="flex flex-row justify-between items-center"
+          style={{ width: "90%" }}
+        >
           <span className="text-sm mt-2 font-normal text-gray-700">
             Logistic & Transport Solutions Saves Time.{" "}
             <span className="font-semibold">Finds Your Solution</span>

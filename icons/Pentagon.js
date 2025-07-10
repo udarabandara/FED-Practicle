@@ -1,5 +1,3 @@
-import React from "react";
-
 function Pentagon() {
   return (
     <div>
@@ -13,7 +11,7 @@ function Pentagon() {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        className="icon icon-tabler text-amber-400 icon-tabler-brand-binance"
+        className="icon icon-tabler text-white icon-tabler-brand-binance"
       >
         <path stroke="none" d="M0 0h24v24H0z" fill="none" />
         <path d="M6 8l2 2l4 -4l4 4l2 -2l-6 -6z" />
