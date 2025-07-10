@@ -55,7 +55,7 @@ function News() {
           LATEST NEWS
         </span>
         <div className="flex flex-row items-center justify-center">
-          <span className="w-3 h-3 bg-cyan-300"></span>
+          <span className="w-3 h-3 bg-cyan-500"></span>
           <span className="text-sm ml-2 font-bold text-gray-400">
             INTEGER CONGUE ELIT
           </span>
@@ -66,7 +66,7 @@ function News() {
         {newsArticles.map((item, index) => (
           <div
             className={`mx-4 my-4 shadow-lg flex flex-row ${
-              item.isImportant ? "bg-cyan-300 text-white" : "bg-white"
+              item.isImportant ? "bg-cyan-500 text-white" : "bg-white"
             }`}
             style={{ width: "47%" }}
             key={index}
@@ -74,7 +74,7 @@ function News() {
             <div className="relative h-50 w-120 overflow-hidden">
               <div
                 className={`absolute left-0 w-12 h-12 text-white bg-opacity-50  flex items-center justify-center text-sm ${
-                  item.isImportant ? "bg-cyan-300/75" : "bg-gray-500/75"
+                  item.isImportant ? "bg-cyan-500/75" : "bg-gray-500/75"
                 }`}
               >
                 <div className="flex flex-col items-center leading-tight">
@@ -116,7 +116,7 @@ function News() {
                   strokeLinecap="round"
                   strokeLinejoin="round"
                   className={`icon icon-tabler icons-tabler-outline ${
-                    item.isImportant ? "text-white" : "text-cyan-300"
+                    item.isImportant ? "text-white" : "text-cyan-500"
                   } icon-tabler-messages `}
                 >
                   <path stroke="none" d="M0 0h24v24H0z" fill="none" />
