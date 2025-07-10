@@ -27,11 +27,11 @@ function Services() {
         </span>
       </div>
 
-      <div className="w-full flex flex-wrap my-5 mx-20">
+      <div className="w-full flex flex-wrap my-5 px-20">
         {Services.map((service, index) => (
           <div
             className="mx-4 my-4 shadow-lg flex flex-row"
-            style={{ width: "45%" }}
+            style={{ width: "47%" }}
             key={index}
           >
             <div className="relative h-50 w-50 overflow-hidden">
@@ -73,7 +73,7 @@ function Services() {
           className="flex flex-row justify-between items-center"
           style={{ width: "90%" }}
         >
-          <span className="text-sm mt-2 font-normal text-gray-700">
+          <span className="text-sm mt-2 ml-2 font-normal text-gray-700">
             Logistic & Transport Solutions Saves Time.{" "}
             <span className="font-semibold">Finds Your Solution</span>
           </span>

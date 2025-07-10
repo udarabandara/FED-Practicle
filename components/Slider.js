@@ -23,7 +23,7 @@ function Slider() {
   };
 
   return (
-    <div className="w-full flex">
+    <div className="w-full flex px-6">
       <div className="w-1/3 flex flex flex-col justify-end">
         <div className="flex items-center">
           <div className="h-15 w-20 bg-amber-400 flex items-center justify-center">

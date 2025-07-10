@@ -2,7 +2,7 @@ import React from "react";
 
 function WelcomeSection() {
   return (
-    <div className="w-full flex pa-6">
+    <div className="w-full flex px-20">
       <div className="w-1/2">
         <img
           src="/welcome_section_image.png"

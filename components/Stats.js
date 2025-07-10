@@ -2,8 +2,8 @@ import React from "react";
 
 function Stats() {
   return (
-    <div className="w-full flex mx-20 my-5 text-sky-900">
-      <div className="w-1/4 flex flex-row mx-3 items-center ">
+    <div className="w-full flex text-sky-900">
+      <div className="w-1/4 flex flex-row mx-3 items-center justify-center">
         <span className="absolute text-7xl font-extrabold text-gray-50 z-0 select-none drop-shadow-lg">
           890
         </span>
@@ -13,7 +13,7 @@ function Stats() {
           <p>Packages</p>
         </span>
       </div>
-      <div className="w-1/4 flex flex-row mx-3 items-center ">
+      <div className="w-1/4 flex flex-row mx-3 items-center justify-center">
         <span className="absolute text-7xl font-extrabold text-gray-50 z-0 select-none drop-shadow-lg">
           137
         </span>
@@ -23,7 +23,7 @@ function Stats() {
           <p>Covered</p>
         </span>
       </div>
-      <div className="w-1/4 flex flex-row mx-3 items-center ">
+      <div className="w-1/4 flex flex-row mx-3 items-center justify-center">
         <span className="absolute text-7xl font-extrabold text-gray-50 z-0 select-none drop-shadow-lg">
           740
         </span>
@@ -33,7 +33,7 @@ function Stats() {
           <p>of Goods</p>
         </span>
       </div>
-      <div className="w-1/4 flex flex-row mx-3 items-center ">
+      <div className="w-1/4 flex flex-row mx-3 items-center justify-center">
         <span className="absolute text-7xl font-extrabold text-gray-50 z-0 select-none drop-shadow-lg">
           600
         </span>
