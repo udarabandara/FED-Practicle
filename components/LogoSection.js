@@ -12,7 +12,7 @@ function LogoSection() {
     <div className="w-full flex">
       <div className="w-full flex flex-row  items-center justify-between px-20">
         {Logos.map((Logo, index) => (
-          <img src={Logo} className="w-40 h-10" />
+          <img src={Logo} className="w-40 h-10" key={index}/>
         ))}
       </div>
     </div>

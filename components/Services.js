@@ -34,14 +34,14 @@ function Services() {
             style={{ width: "47%" }}
             key={index}
           >
-            <div className="relative h-50 w-50 overflow-hidden">
+            <div className="relative h-50 w-90 overflow-hidden">
               <img
                 src={service.img}
-                className="h-50 w-50 object-cover"
+                className="h-full w-full object-cover"
                 alt="service"
               />
 
-              <div className="absolute bottom-0 top-41 left-27 w-10 h-10 bg-lime-200 bg-opacity-50 text-white flex items-center justify-center text-sm rounded-full">
+              <div className="absolute bottom-0 top-41 left-44 w-10 h-10 bg-lime-200/70 text-white flex items-center justify-center text-sm rounded-full">
                 <Pentagon />
               </div>
             </div>
